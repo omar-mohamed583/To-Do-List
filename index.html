@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To-Do List</h1>
+            
+            <div class="statistics">
+                <div class="completed-tasks">
+                    Completed: <span></span>
+                </div>
+    
+                <div class="tasks">
+                    Tasks: <span></span>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="input-container">
+            <input type="text" placeholder="Enter A Task Name.." name="">
+            <button aria-label="add task" class="add-task">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z"/></svg>
+            </button>
+        </div>
+
+        <div class="no-tasks">No Tasks Yet.</div>
+
+        <ul class="tasks-list">
+            
+        </ul>
+    </div>
+
+
+    <script src="script.js" defer></script>
+</body>
+</html>
